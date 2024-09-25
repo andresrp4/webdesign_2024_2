@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&family=Source+Code+Pro:wght@200;300;400;500&display=swap");
+body {
+  background-color: rgb(67, 160, 71);
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: "Fredoka", cursive;
+}
+p {
+  font-family: "PT Sans", sans-serif;
+}
+.help {
+  font-family: "Source code pro", monospace;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: rgba(255, 255, 255, 0.8) solid 1px;
+}
+.app {
+  display: flex;
+}
+#instructions {
+  padding: 30px;
+  width: 50%;
+}
+.editor {
+  position: relative;
+  background-color: rgb(244, 244, 244);
+  height: 260px;
+  padding: 10px 10px 10px 40px;
+  border-radius: 4px;
+  font-family: "Source code pro", monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(119, 119, 119);
+  overflow: hidden;
+}
+.line-numbers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(153, 153, 153);
+  color: rgb(213, 213, 213);
+  padding: 10px 6px;
+  height: 100%;
+  text-align: right;
+}
+pre {
+  margin: 0;
+}
+textarea {
+  height: 44px;
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  margin-left: 20px;
+  width: 90%;
+  margin-top: -20px;
+}
+button {
+  background-color: rgba(209, 22, 6, 0.8);
+  border: none;
+  border-radius: 4px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+#pond {
+  position: relative;
+  background-color: rgb(31, 87, 104);
+  width: 50vw;
+  height: 50vw;
+  border-bottom-left-radius: 30px;
+  overflow: hidden;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 100vh;
+  max-height: 100vh;
+}
+#forefront {
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 95%;
+  width: 95%;
+  padding: 2.5%;
+}
+#background {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 95%;
+  width: 95%;
+  padding: 2.5%;
+}
+.lily-container,
+.frog-container {
+  width: 20%;
+  height: 20%;
+}
+.lily,
+.frog {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.lily.green {
+  background-image: url(images/lilypad-green.svg);
+}
+.lily.red {
+  background-image: url(images/lilypad-red.svg);
+}
+.lily.yellow {
+  background-image: url(images/lilypad-yellow.svg);
+}
+.frog.green {
+  background-image: url(images/frog-green.svg);
+}
+.frog.red {
+  background-image: url(images/frog-red.svg);
+}
+.frog.yellow {
+  background-image: url(images/frog-yellow.svg);
+}
