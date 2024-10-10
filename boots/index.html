@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Comando para gerar fotos aleatórias (https://picsum.photos/1400/400?random=0) -->
+    <!-- carrocel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/iphone14.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>iPhone Colors</h5>
+              <p>iPhone 14</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/iphone15.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>iPhone Colors</h5>
+              <p>iPhone 15</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/iphone16.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>iPhone Colors</h5>
+              <p>iPhone 16</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <!-- Cards1 -->
+          <div class="col-md-4 mt-5">
+            <div class="card" style="width: 18rem;">
+              <img src="https://picsum.photos/1400/700?random=11" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Imagem 1</h5>
+                <p class="card-text">Imagem gerada de forma aleatório para exibição e teste do html</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Cards2 -->
+          <div class="col-md-4 mt-5">
+            <div class="card" style="width: 18rem;">
+              <img src="https://picsum.photos/1400/700?random=12" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Imagem 2</h5>
+                <p class="card-text">Imagem gerada de forma aleatório para exibição e teste do html</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Cards3 -->
+          <div class="col-md-4 mt-5">
+            <div class="card" style="width: 18rem;">
+              <img src="https://picsum.photos/1400/700?random=23" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Imagem 3</h5>
+                <p class="card-text">Imagem gerada de forma aleatório para exibição e teste do html</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row">
+          <!-- Cards4 -->
+          <div class="col-md-4 mt-5">
+            <div class="card" style="width: 18rem;">
+              <img src="https://picsum.photos/1400/700?random=34" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Imagem 4</h5>
+                <p class="card-text">Imagem gerada de forma aleatório para exibição e teste do html</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Cards5 -->
+          <div class="col-md-4 mt-5">
+            <div class="card" style="width: 18rem;">
+              <img src="https://picsum.photos/1400/700?random=45" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Imagem 5</h5>
+                <p class="card-text">Imagem gerada de forma aleatório para exibição e teste do html</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Cards6 -->
+          <div class="col-md-4 mt-5">
+            <div class="card" style="width: 18rem;">
+              <img src="https://picsum.photos/1400/700?random=56" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Imagem 6</h5>
+                <p class="card-text">Imagem gerada de forma aleatório para exibição e teste do html</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row">
+          <!-- Cards7 -->
+          <div class="col-md-4 mt-5">
+            <div class="card" style="width: 18rem;">
+              <img src="https://picsum.photos/1400/700?random=67" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Imagem 7</h5>
+                <p class="card-text">Imagem gerada de forma aleatório para exibição e teste do html</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Cards8 -->
+          <div class="col-md-4 mt-5">
+            <div class="card" style="width: 18rem;">
+              <img src="https://picsum.photos/1400/700?random=78" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Imagem 8</h5>
+                <p class="card-text">Imagem gerada de forma aleatório para exibição e teste do html</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Cards9 -->
+          <div class="col-md-4 mt-5">
+            <div class="card" style="width: 18rem;">
+              <img src="https://picsum.photos/1400/700?random=89" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Imagem 9</h5>
+                <p class="card-text">Imagem gerada de forma aleatório para exibição e teste do html</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    <!-- accordion -->
+    <div class="accordion mt-5" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            iPhone 14:
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>iPhone 14 Tela: </strong> A tela do iPhone 14 tem bordas arredondadas que se ajustam ao design curvo do aparelho dentro da sua forma retangular. Quando medida como um retângulo, a tela tem 6,06 polegadas na diagonal. A área real de visualização é menor.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            iPhone 15:
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Objetivo ambiental: </strong> como parte dos nossos esforços para neutralizar as emissões de carbono até 2030, o iPhone 15 e o iPhone 15 Plus não vêm com adaptador de energia nem EarPods. O conteúdo da caixa inclui um cabo USB‑C compatível com recarga rápida e com adaptadores de energia e portas de computador USB‑C
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            iPhone 16:
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>iPhone 16: </strong> Agora, suas fotos e vídeos vão arrasar também no quesito agilidade. Com o Controle da Câmera, você tem acesso mais fácil e rápido às ferramentas e recursos. É só deslizar o dedo na parte lateral do aparelho para acessar as funções, como exposição ou profundidade de campo, alternar entre as lentes ou usar o zoom para enquadrar a foto. Simples assim.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- rodapé -->
+      <footer class="container-fluid bg-dark text-white d-flex justify-content-center fixed-bottom">
+        <p class="my-0 py-2">Copyright 2024 - André Siqueira</p>
+      </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
