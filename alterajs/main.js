@@ -35,6 +35,11 @@ function playa(){
 }
 
 function chang(){
-    const allc = document.querySelectorAll('.gg');
-    allc.classList.add('nova');
+    const elementos = document.querySelectorAll(`.btts`);
+
+    elementos.forEach(elemento => {
+        elemento.addEventListener('click', () => {
+          elemento.classList.toggle('nova');
+        });
+      });
 }
