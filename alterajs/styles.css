@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.gg{
+    margin-left: 15px;
+    background-color: green;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.nova{
+    background-color: lightgreen;
+}
+
+.buts{
+    margin-top: 15px;
+}
