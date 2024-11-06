@@ -1,0 +1,22 @@
+.fundo{
+    background-color: antiquewhite;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.custom{
+    border-radius: 15px;
+    border: solid 1px black;
+    padding: 20px;
+    height: 200px;
+    width: 400px;
+}
+
+.btt{
+    padding-top: 10px;
+}
